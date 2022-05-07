@@ -1,0 +1,17 @@
+{
+  "name": "moviestats",
+  "version": "1.0.0",
+  "description": "Get all the stats and info about the movies and TV shows with a single click. OMDB API is used to get the data about the movies.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sree Krishna",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.7",
+    "express": "^4.18.1"
+  }
+}

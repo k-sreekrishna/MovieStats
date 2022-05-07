@@ -1,0 +1,85 @@
+body{
+    min-height: 100vh;
+}
+
+header{
+    background-color: #FFC107;
+}
+
+header ul li{
+    margin: 0.5em 1.5em;
+}
+
+.form-control{
+    background-color: transparent;
+    border:none;
+}
+
+input{
+    width:70%;
+    height:3em;
+    margin: 1em 0em;
+    border-radius: 1em;
+    padding-left: 2em;
+}
+
+input:focus{
+    outline: none;
+}
+
+footer{
+    background: black;
+    color: white;
+    position: sticky;
+    top: 100%;
+    padding: 2em 0;
+}
+
+.btn:hover {
+    background-color: black;
+    color:white;
+    border: none;
+}
+
+.card-title {
+    font-weight: 700;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.movie-card {
+    padding: 2rem;
+}
+
+
+.rating-text {
+    font-size: 2rem;
+}
+
+.rating-card {
+    margin-bottom: 1rem;
+}
+
+.movie-plot {
+    margin-bottom: 2rem;
+}
+
+.rating-image {
+    height: 50px;
+
+}
+
+@media (max-width: 1317px) {
+
+    .card-title {
+        
+        font-size: 2rem;
+    }
+
+    .rating-image {
+        height: 35px;
+    
+    }
+
+ }
+

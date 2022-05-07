@@ -1,0 +1,60 @@
+<%- include('partials/header') %>
+<div class="container">
+    <div class="movie-card card my-3">
+        <div class="row no-gutters">
+          <div class="col-lg-4">
+            <img src="<%= moviePoster %>" class="card-img" alt="<%= movieTitle %>">
+          </div>
+
+
+          <div class="col-lg-8">
+            <div class="card-body">
+              <h5 class="card-title"><%= movieTitle %></h5>
+              <p class="movie-plot card-text text-center" ><%= moviePlot %></p>
+              <!-- Other Info -->
+
+              <ul class="list-group list-group-flush m-4 p-4" style="text-align: center; font-style: italic;">
+                <li class="list-group-item my-1">Genre &mdash; <%=genre%></li>
+                <li class="list-group-item my-1">Actors &mdash; <%=actors%></li>
+                <li class="list-group-item my-1">Director &mdash; <%=director%></li>
+                <li class="list-group-item my-1">Language &mdash; <%=language%></li>
+                <li class="list-group-item my-1">Awards &mdash; <%=awards%></li>
+              </ul>
+
+              <!-- Ratings -->
+              <div class="row" style="text-align: center;">
+                <div class="col-sm-4">
+                  <div class="rating-card card">
+                    <div class="card-body">
+                      <h5 class="card-title"><img class="rating-image" src="/images/imdb.jpg" alt="IMDB"></h5>
+                      <p class=" rating-text card-text"><%=imdbRating%></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-sm-4">
+                  <div class="rating-card card">
+                    <div class="card-body">
+                      <h5 class="card-title"><img class="rating-image" src="/images/tomatoes.jpg" alt="tomatoes"></h5>
+                      <p class=" rating-text card-text"><%=rottenRating%></p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="rating-card card">
+                      <div class="card-body">
+                        <h5 class="card-title"><img class="rating-image" src="/images/collections.jpg" alt="IMDB"></h5>
+                        <p class="rating-text card-text"><%= collection %></p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center my-4 py-2">
+        <a href="/" class="btn btn-warning p-1 m-1">Search Other Movie</a>
+    </div>
+</div>
+<%- include('partials/footer') %>

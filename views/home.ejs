@@ -1,0 +1,10 @@
+<%- include('partials/header') %>
+<div class="container text-center">
+    <form class="form-control" action="/" method="POST">
+        <input type="text" name="movie" placeholder="Movie name" required="required" autofocus="true"/>
+        <input type="year" name="year" placeholder="year of Release (optional)">
+        <br>
+        <button class="btn btn-warning btn-lg" type="submit">Search</button>
+    </form>
+</div>
+<%- include('partials/footer') %>
