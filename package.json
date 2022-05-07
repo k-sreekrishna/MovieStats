@@ -4,6 +4,7 @@
   "description": "Get all the stats and info about the movies and TV shows with a single click. OMDB API is used to get the data about the movies.",
   "main": "app.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sree Krishna",
